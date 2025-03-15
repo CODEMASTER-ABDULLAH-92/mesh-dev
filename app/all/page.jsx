@@ -2,13 +2,10 @@
 import asset from "@/assets/data";
 import { HelpCircle } from "lucide-react";
 import Link from "next/link";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Page = () => {
-  const [easy, setEasy] = useState([]);
   const [filteredQuestions, setFilteredQuestions] = useState(asset);
-  
-  
   const handleFilterChange = (e) => {
     if (e.target.checked) {
       setFilteredQuestions(asset.filter((item) => item.easy === true));
@@ -16,12 +13,28 @@ const Page = () => {
       setFilteredQuestions(asset);
     }
   };
-  
-  
+
+  const handleFilterMidium = (e) => {
+    if (e.target.checked) {
+      setFilteredQuestions(asset.filter((item)=> item.mid === true))
+    } else {
+      setFilteredQuestions(asset);
+    }
+  }
+
+
+  const handleFilterHard = (e) => {
+    if (e.target.checked) {
+      setFilteredQuestions(asset.filter((item)=> item.hard === true))
+    } else {
+      setFilteredQuestions(asset);
+    }
+  }
+
   useEffect(() => {
     setFilteredQuestions(asset);
   }, [asset]);
-  
+
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-900 text-white p-6">
       {/* Title */}
@@ -36,63 +49,102 @@ const Page = () => {
           {/* Question Type Section */}
           <h1 className="text-xl font-mono font-medium mb-2">Question Type:</h1>
           <div className="space-y-2">
-          <label htmlFor="easy" className="flex items-center gap-2 cursor-pointer">
-  <input 
-    type="checkbox" 
-    id="easy" 
-  onChange={handleFilterChange}
-    className="w-[18px] h-[18px] accent-blue-500"
-  />
-  Easy
+            <label htmlFor="easy" className="flex items-center gap-2 cursor-pointer">
+              <input
+                type="checkbox"
+                id="easy"
+                onChange={handleFilterChange}
+                className="w-[18px] h-[18px] accent-blue-500"
+              />
+              Easy
+            </label>
 
-</label>
-
-
+            {/*  checkboxes for Medium and Hard (not functional) */}
             <label htmlFor="medium" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="medium" className="w-[18px] h-[18px] accent-blue-500" />
+              <input
+                type="checkbox"
+                id="medium"
+                onChange={handleFilterMidium}
+                className="w-[18px] h-[18px] accent-blue-500"
+              />
               Medium
             </label>
 
             <label htmlFor="hard" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="hard" className="w-[18px] h-[18px] accent-blue-500" />
+              <input
+                type="checkbox"
+                id="hard"
+                onChange={handleFilterHard}
+                className="w-[18px] h-[18px] accent-blue-500"
+              />
               Hard
             </label>
           </div>
 
-          {/* Sheets Section */}
+          {/* Sheets Section ( for now) */}
           <h1 className="text-xl font-mono font-medium mt-4 mb-2">Sheets:</h1>
           <div className="space-y-2">
             <label htmlFor="love-babbar" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="love-babbar" className="w-[18px] h-[18px] accent-green-500" />
+              <input
+                type="checkbox"
+                id="love-babbar"
+                
+                className="w-[18px] h-[18px] accent-green-500"
+              />
               Love Babbar
             </label>
 
             <label htmlFor="striver" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="striver" className="w-[18px] h-[18px] accent-green-500" />
+              <input
+                type="checkbox"
+                id="striver"
+                
+                className="w-[18px] h-[18px] accent-green-500"
+              />
               Striver
             </label>
 
             <label htmlFor="striver-pattern" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="striver-pattern" className="w-[18px] h-[18px] accent-green-500" />
+              <input
+                type="checkbox"
+                id="striver-pattern"
+                
+                className="w-[18px] h-[18px] accent-green-500"
+              />
               Striver Pattern
             </label>
           </div>
 
-          {/* DSA Categories */}
+          {/* DSA Categories ( for now) */}
           <h1 className="text-xl font-mono font-medium mt-4 mb-2">DSA:</h1>
           <div className="space-y-2">
             <label htmlFor="array" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="array" className="w-[18px] h-[18px] accent-green-500" />
+              <input
+                type="checkbox"
+                id="array"
+                
+                className="w-[18px] h-[18px] accent-green-500"
+              />
               Array
             </label>
 
             <label htmlFor="string" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="string" className="w-[18px] h-[18px] accent-green-500" />
+              <input
+                type="checkbox"
+                id="string"
+                
+                className="w-[18px] h-[18px] accent-green-500"
+              />
               String
             </label>
 
             <label htmlFor="hashmap" className="flex items-center gap-2 cursor-pointer">
-              <input type="checkbox" id="hashmap" className="w-[18px] h-[18px] accent-green-500" />
+              <input
+                type="checkbox"
+                id="hashmap"
+                
+                className="w-[18px] h-[18px] accent-green-500"
+              />
               HashMap
             </label>
           </div>
