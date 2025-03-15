@@ -1,14 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Sour_Gummy, Outfit, Prata } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/component/Navbar";
+import Footer from "@/component/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+
+const sourGummy = Sour_Gummy({
+  variable: "--font-sour-gummy",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
+});
+
+const prata = Prata({
+  variable: "--font-prata",
+  subsets: ["latin"],
+  weight:"400"
 });
 
 export const metadata = {
@@ -20,9 +29,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${sourGummy.variable} ${outfit.variable} ${prata.variable} antialiased`}
       >
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
