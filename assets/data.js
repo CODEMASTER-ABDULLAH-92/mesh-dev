@@ -19,6 +19,7 @@ const asset = [
         hard: false,
         Dsa: "array"
     },
+    // favicon.ico
     {
         _id: "selectionsort",
         heading: "Selection Sort",
