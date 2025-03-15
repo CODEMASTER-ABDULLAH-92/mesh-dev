@@ -29,34 +29,69 @@ const Page = () => {
           {/* Question Type Section */}
           <h1 className="text-xl font-mono font-medium mb-2">Question Type:</h1>
           <div className="space-y-2">
-            {["Easy", "Medium", "Hard"].map((type, index) => (
-              <label key={index} htmlFor={type.toLowerCase()} className="flex items-center gap-2 cursor-pointer">
-                <input type="checkbox" id={type.toLowerCase()} className="w-[18px] h-[18px] accent-blue-500" />
-                {type}
-              </label>
 
-              
-            ))}
+<div className="space-y-2">
+  <label htmlFor="easy" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="easy" className="w-[18px] h-[18px] accent-blue-500" />
+    Easy
+  </label>
+
+  <label htmlFor="medium" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="medium" className="w-[18px] h-[18px] accent-blue-500" />
+    Medium
+  </label>
+
+  <label htmlFor="hard" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="hard" className="w-[18px] h-[18px] accent-blue-500" />
+    Hard
+  </label>
+</div>
+
+
           </div>
 
           {/* Sheets Section */}
+
+          <div className="space-y-2">
           <h1 className="text-xl font-mono font-medium mt-4 mb-2">Sheets:</h1>
-          <div className="space-y-2">
-            {["Love Babbar", "Striver", "Striver Pattern"].map((sheet, index) => (
-              <label key={index} htmlFor={sheet.toLowerCase().replace(" ", "-")} className="flex items-center gap-2 cursor-pointer">
-                <input type="checkbox" id={sheet.toLowerCase().replace(" ", "-")} className="w-[18px] h-[18px] accent-green-500" />
-                {sheet}
-              </label>
-            ))}
+<div className="space-y-2">
+  <label htmlFor="love-babbar" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="love-babbar" className="w-[18px] h-[18px] accent-green-500" />
+    Love Babbar
+  </label>
+
+  <label htmlFor="striver" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="striver" className="w-[18px] h-[18px] accent-green-500" />
+    Striver
+  </label>
+
+  <label htmlFor="striver-pattern" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="striver-pattern" className="w-[18px] h-[18px] accent-green-500" />
+    Striver Pattern
+  </label>
+</div>
+
           </div>
-          <h1 className="text-xl font-mono font-medium mt-4 mb-2">DSA:</h1>
+
           <div className="space-y-2">
-            {["Array", "String", "HashMap"].map((sheet, index) => (
-              <label key={index} htmlFor={sheet.toLowerCase().replace(" ", "-")} className="flex items-center gap-2 cursor-pointer">
-                <input type="checkbox" id={sheet.toLowerCase().replace(" ", "-")} className="w-[18px] h-[18px] accent-green-500" />
-                {sheet}
-              </label>
-            ))}
+          <h1 className="text-xl font-mono font-medium mt-4 mb-2">DSA:</h1>
+<div className="space-y-2">
+  <label htmlFor="array" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="array" className="w-[18px] h-[18px] accent-green-500" />
+    Array
+  </label>
+  
+  <label htmlFor="string" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="string" className="w-[18px] h-[18px] accent-green-500" />
+    String
+  </label>
+  
+  <label htmlFor="hashmap" className="flex items-center gap-2 cursor-pointer">
+    <input type="checkbox" id="hashmap" className="w-[18px] h-[18px] accent-green-500" />
+    HashMap
+  </label>
+</div>
+
           </div>
         </div>
 
