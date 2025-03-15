@@ -33,7 +33,7 @@ const SearchSection = () => {
         in Data Structures, Algorithms, and Web Development.
       </div>
       <Link
-      href="/lets-started"
+      href="/all"
       className="px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-orange-500 to-orange-700 rounded-lg shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300"
     >
       Let's Get Started
