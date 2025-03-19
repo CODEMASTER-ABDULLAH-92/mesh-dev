@@ -7,7 +7,7 @@ export default function Home() {
    <>
 
    <SearchSection/>
-   <DSAComponent/>
+   {/* <DSAComponent/> */}
      <Testimonials/>
      <Connect/>
    </>

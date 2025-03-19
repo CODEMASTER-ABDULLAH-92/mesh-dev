@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef, useState } from "react";
 import Connect from "./Connect";
-
 const Code = ({ text, heading }) => {
   const [copyStatus, setCopyStatus] = useState("Copy");
   const textRef = useRef(null);
@@ -15,7 +14,6 @@ const Code = ({ text, heading }) => {
       setTimeout(() => setCopyStatus("Copy"), 2000);
     }
   };
-
   return (
     <div className="min-h-screen relative bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white flex flex-col items-center px-4 py-10">
       {/* Title */}
@@ -47,7 +45,11 @@ const Code = ({ text, heading }) => {
           </div>
         </div>
       </div>
-      <Connect/>
+      <div>
+
+      </div>
+
+      {/* <Connect/> */}
     </div>
   );
 };

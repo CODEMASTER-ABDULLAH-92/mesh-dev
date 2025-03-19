@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,15 +15,15 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8 text-lg font-semibold">
-          <a href="#" className="text-orange-300 hover:text-orange-500 transition">
+          <Link href="/love-babbar-sheet" className="text-orange-300 hover:text-orange-500 transition">
             Love-Babbar Sheet
-          </a>
-          <a href="#" className="text-orange-300 hover:text-orange-500 transition">
+          </Link>
+          {/* <a href="#" className="text-orange-300 hover:text-orange-500 transition">
             Striver-Sheet
-          </a>
-          <a href="#" className="text-orange-300 hover:text-orange-500 transition">
+          </a> */}
+          <Link href="/striver" className="text-orange-300 hover:text-orange-500 transition">
             Striver-Pattern-Sheet
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -38,11 +37,11 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-4 py-4 bg-gray-800">
-          <a href="#" className="text-orange-300 hover:text-orange-500 transition">
+        <div className="md:hidden h-screen flex flex-col items-center space-y-4 py-4 bg-gray-800">
+          <Link href="/love-babbar-sheet" onClick={()=>setIsOpen(false)} className="text-orange-300 hover:text-orange-500 transition">
             Love-Babbar Sheet
-          </a>
-          <a href="#" className="text-orange-300 hover:text-orange-500 transition">
+          </Link>
+          <a href="/striver" onClick={()=>setIsOpen(false)} className="text-orange-300 hover:text-orange-500 transition">
             Striver-Sheet
           </a>
         </div>
