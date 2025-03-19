@@ -5,7 +5,6 @@ import Testimonials from "@/component/Testimonial";
 export default function Home() {
   return (
    <>
-
    <SearchSection/>
    <DSAComponent/>
      <Testimonials/>
