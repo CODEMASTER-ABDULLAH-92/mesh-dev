@@ -53,7 +53,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "findthesecondlargestelement",
+        _id: "find-second-largest",
         heading: "Find the Second Largest Element",
         love: false,
         striver: true,
@@ -63,7 +63,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "missingnumberinanarray",
+        _id: "missing-number-in-an-array",
         heading: "Missing Number in an array",
         love: false,
         striver: true,
@@ -73,7 +73,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "fibonacciseriesusingarray",
+        _id: "fibonacci-series-using-array",
         heading: "Fibonacci Series Using Array",
         love: false,
         striver: true,
@@ -83,7 +83,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "separateevenandodd",
+        _id: "seprate-even-odd",
         heading: "Separate Even & Odd",
         love: false,
         striver: true,
@@ -93,7 +93,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "rotateanarrayby1",
+        _id: "rotate-an-array-by-1",
         heading: "Rotate an Array by 1",
         love: false,
         striver: true,
@@ -113,7 +113,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "reverseofarray",
+        _id: "reverseAnArray",
         heading: "Reverse of Array",
         love: false,
         striver: true,
@@ -123,7 +123,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "reversealternatethearray",
+        _id: "reverse-alternative-array",
         heading: "Reverse Alternate the Array",
         love: false,
         striver: true,
