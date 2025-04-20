@@ -143,16 +143,6 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "sortingof01inanarray",
-        heading: "Sorting of 01 in an array",
-        love: false,
-        striver: true,
-        easy: true,
-        mid: false,
-        hard: false,
-        Dsa: "array"
-    },
-    {
         _id: "squarePattern",
         heading: "Square Pattern",
         love: false,
@@ -163,7 +153,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "right-AngledTrianglePattern",
+        _id: "right-Angled-Triangle-Pattern",
         heading: "Right-Angled Triangle Pattern",
         love: false,
         striver: true,
@@ -173,7 +163,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "numberPyramidPattern",
+        _id: "number-Pyramid-Pattern",
         heading: "Number Pyramid Pattern",
         love: false,
         striver: true,
@@ -183,7 +173,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "repeatedNumberTrianglePattern",
+        _id: "repeated-Number-Triangle-Pattern",
         heading: "Repeated Number Triangle Pattern",
         love: false,
         striver: true,
@@ -213,7 +203,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "Inverted Pyramid Pattern2",
+        _id: "Inverted-Pyramid-Pattern2",
         heading: "Inverted Pyramid Pattern 2",
         love: false,
         striver: true,
@@ -253,7 +243,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "Hourglass Pattern",
+        _id: "Hourglass-Pattern",
         heading: "Hourglass Pattern",
         love: false,
         striver: true,
@@ -303,6 +293,7 @@ const asset = [
         Dsa: "array"
     },
     {
+        //Here im stopped
         _id: "symmetricAlphabetPyramid",
         heading: "Symmetric Alphabet Pyramid",
         love: false,
@@ -323,7 +314,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "Butterfly Pattern",
+        _id: "ButterflyPattern",
         heading: "Butterfly Pattern",
         love: false,
         striver: true,

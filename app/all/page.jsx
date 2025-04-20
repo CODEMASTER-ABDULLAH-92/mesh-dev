@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const Page = () => {
+  const [changeColor,setChangeColor] = useState(false);
   const [filteredQuestions, setFilteredQuestions] = useState(asset);
   const handleFilterChange = (e) => {
     if (e.target.checked) {
@@ -158,7 +159,7 @@ const Page = () => {
               className="flex items-center gap-3 p-4 border-b border-gray-700 hover:bg-gray-700 rounded-lg transition-all"
             >
               <HelpCircle className="text-orange-400" size={24} />
-              <Link href={item._id} className="text-lg font-medium">
+              <Link href={item._id} onClick={()=>setChangeColor(!changeColor)} className={`${changeColor ? "" : "text-green-600"} text-lg font-medium`}>
                 {item.heading}
               </Link>
             </div>

@@ -4,7 +4,7 @@
 // * * * * * 
 // * * * * * 
 // * * * * * 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //     for(int row = 1; row<=5; row++){
@@ -14,7 +14,7 @@
 //         cout<<endl;
 //     }
 // return 0;
-// }
+// } -->
 
 
 
@@ -24,7 +24,7 @@
 // * * * 
 // * * * * 
 // * * * * * 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 1; row<=5; row++){
@@ -34,7 +34,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 // Pattren 3
 
@@ -43,7 +43,7 @@
 // 1 2 3 
 // 1 2 3 4 
 // 1 2 3 4 5 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 1; row<=5; row++){
@@ -53,7 +53,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 // Pattren 4
 // 1 
@@ -61,7 +61,7 @@
 // 3 3 3 
 // 4 4 4 4 
 // 5 5 5 5 5
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 1; row<=5; row++){
@@ -71,7 +71,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 // Pattren 5 
 // * * * * * 
@@ -79,7 +79,7 @@
 // * * * 
 // * * 
 // *
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 5; row>=1; --row){
@@ -89,7 +89,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 // pattren 6
 // 1 2 3 4 5 
@@ -97,7 +97,7 @@
 // 1 2 3 
 // 1 2 
 // 1
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 5; row>=1; --row){
@@ -107,7 +107,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 
 
@@ -119,7 +119,7 @@
 //   * * * * * * * 
 // * * * * * * * * * 
 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 1; row<=5; row++){
@@ -135,7 +135,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 
 // Pattren 8
@@ -174,7 +174,7 @@
 //       * * * 
 //         * 
 
-//  #include <iostream>
+<!-- //  #include <iostream>
 //  using namespace std;
 
 //  int main() {
@@ -215,7 +215,7 @@
 //     }
 
 //     return 0;
-// }
+// } -->
 
 
 // * 
@@ -227,7 +227,7 @@
 // * * * 
 // * * 
 // * 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 1; row<=5; row++){
@@ -243,14 +243,14 @@
 //     cout<<endl;
 //  }
 // return 0;
-// }
+// } -->
 
 // 1 
 // 0 1 
 // 1 0 1 
 // 0 1 0 1 
 // 1 0 1 0 1 
-// #include <iostream>
+<!-- // #include <iostream>
 // using namespace std;
 
 // int main() {
@@ -271,7 +271,7 @@
 //     }
 
 //     return 0;
-// }
+// } -->
 
 
 //Pattren No 12
@@ -282,7 +282,7 @@
 // 12    12
 // 123  123
 // 12341234
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //     int n = 4;
@@ -302,7 +302,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 
 // Pattren No 13
@@ -311,7 +311,7 @@
 // 4 5 6 
 // 7 8 9 10 
 // 11 12 13 14 15 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //     int start = 1;
@@ -323,7 +323,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 
 // Pattren No 14
@@ -332,7 +332,7 @@
 // A B C 
 // A B C D 
 // A B C D E 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(char row = 'A'; row<='E'; row++){
@@ -342,7 +342,7 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
 
 
 // Pattren 15 
@@ -352,7 +352,7 @@
 // A B C 
 // A B 
 // A 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(char row = 'A'; row<= 'E'; row++){
@@ -362,7 +362,7 @@
 //     cout<<endl;
 //  }  
 // return 0;
-// }
+// } -->
 
 
 
@@ -372,7 +372,7 @@
 // E D C 
 // E D C B 
 // E D C B A 
-// #include <iostream>
+<!-- // #include <iostream>
 // using namespace std;
 
 // int main() {
@@ -383,7 +383,11 @@
 //         cout << endl;
 //     }
 //     return 0;
-// }
+// } -->
+
+
+
+
 
 
 //Pattren No 21
@@ -436,7 +440,7 @@
 // 4 3 3 3 3 3 4 
 // 4 4 4 4 4 4 4 
 
-// #include<iostream>
+<!-- // #include<iostream>
 // using namespace std;
 // int main(){
 //  for(int row = 1; row <=7; row++){
@@ -460,4 +464,4 @@
 //     cout<<endl;
 //  }   
 // return 0;
-// }
+// } -->
