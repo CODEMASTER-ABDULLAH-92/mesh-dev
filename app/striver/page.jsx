@@ -4,6 +4,7 @@ import Head from "next/head";
 import ReactMarkdown from "react-markdown";
 import Link from "next/link";
 
+
 const Striver = () => {
 
   const patterns = [
@@ -14,7 +15,7 @@ const Striver = () => {
 * * * * *
 * * * * *
 * * * * *`,
-link:'/square-pattren',
+link:'/squarePattern',
     },
     {
       title: 'Pattern 2',
@@ -23,7 +24,7 @@ link:'/square-pattren',
 * * * 
 * * * * 
 * * * * *`,
-link:'/lower-triangle-pattren',
+link:'/right-Angled-Triangle-Pattern',
     },
     {
       title: 'Pattern 3',
@@ -32,6 +33,7 @@ link:'/lower-triangle-pattren',
 1 2 3
 1 2 3 4
 1 2 3 4 5`,
+link:'/number-Pyramid-Pattern'
     },
     {
       title: 'Pattern 4',
@@ -40,8 +42,10 @@ link:'/lower-triangle-pattren',
 3 3 3
 4 4 4 4
 5 5 5 5 5`,
+link:'/repeated-Number-Triangle-Pattern',
     },
     {
+      link:'/repeated-Number-Triangle-Pattern',
       title: 'Pattern 5',
       code: `* * * * * 
 * * * * 
@@ -50,6 +54,7 @@ link:'/lower-triangle-pattren',
 *`,
     },
     {
+      link:"/InvertedRight-AngledTrianglePattern",
       title: 'Pattern 6',
       code: `1 2 3 4 5
 1 2 3 4
@@ -58,6 +63,7 @@ link:'/lower-triangle-pattren',
 1`,
     },
     {
+      link:"/pyramidPattern",
       title: 'Pattern 7',
       code: `        
       *
@@ -67,6 +73,7 @@ link:'/lower-triangle-pattren',
 * * * * * * * * *`,
     },
     {
+      link:"/Inverted-Pyramid-Pattern2",
       title: 'Pattern 8',
       code: `  * * * * * * * * *
     * * * * * * *
@@ -75,6 +82,7 @@ link:'/lower-triangle-pattren',
           *`,
     },
     {
+      link:"/diamondPattern",
       title: 'Pattern 9',
       code: `         * 
        * * * 
@@ -86,7 +94,9 @@ link:'/lower-triangle-pattren',
        * * * 
          *`,
     },
+
     {
+      link:"/mirroredNumberPyramidPattern",
       title: 'Pattern 10',
       code: `* 
 * * 
@@ -99,6 +109,7 @@ link:'/lower-triangle-pattren',
 *`,
     },
     {
+      link:"/BinaryNumberTrianglePattern",
       title: 'Pattern 11',
       code: `1 
 0 1 
@@ -107,13 +118,16 @@ link:'/lower-triangle-pattren',
 1 0 1 0 1`,
     },
     {
+      link:"/Hourglass-Pattern",
       title: 'Pattern 12',
       code: `1      1
 12    12
 123  123
 12341234`,
     },
+
     {
+      link:"/floydTriangle",
       title: 'Pattern 13',
       code: `1 
 2 3 
@@ -122,6 +136,7 @@ link:'/lower-triangle-pattren',
 11 12 13 14 15`,
     },
     {
+      link:"/AlphabetPyramidPattern",
       title: 'Pattern 14',
       code: `A 
 A B 
@@ -130,6 +145,7 @@ A B C D
 A B C D E`,
     },
     {
+      link:"/invertedAlphabetPyramidPattern",
       title: 'Pattern 15',
       code: `
 A B C D E 
@@ -139,6 +155,7 @@ A B
 A `,
     },
     {
+      link:"/reverseAlphabetTrianglePattern",
       title: 'Pattern 16',
       code: `E 
 E D 
@@ -147,6 +164,7 @@ E D C B
 E D C B A`,
     },
     {
+      link:"/symmetricAlphabetPyramid",
       title: 'Pattern 17',
       code: `
           A
@@ -155,6 +173,7 @@ E D C B A`,
     A B C D C B A`,
     },
     {
+      link:"/AlphabetStaircasePattern",
       title: 'Pattern 18',
       code: `E
 D E
@@ -163,6 +182,7 @@ B C D E
 A B C D E`,
     },
     {
+      link:"/sandglassPattern",
       title: 'Pattern 19',
       code: `* * * * * * * * * * 
 * * * *     * * * * 
@@ -176,6 +196,7 @@ A B C D E`,
 * * * * * * * * * * `,
     },
     {
+      link:"/ButterflyPattern",
       title: 'Pattern 20',
       code: `
 *                 * 
@@ -189,6 +210,7 @@ A B C D E`,
 *                 * `,
     },
     {
+      link:"/HollowSquarePattern",
       title: 'Pattern 21',
       code: `* * * * * * * * * * * * * * * 
 *                           * 
@@ -202,6 +224,7 @@ A B C D E`,
 * * * * * * * * * * * * * * *`,
     },
     {
+      link:"/NumberBoxPattern",
       title: 'Pattern 22',
       code: `4 4 4 4 4 4 4 
 4 3 3 3 3 3 4 
@@ -241,7 +264,7 @@ A B C D E`,
                 Practice
               </span>
             </Link> */}
-            <Link href={pattern.link || "/default-pattern"}>
+            <Link href={pattern.link} >
               <span className="py-2 px-6 bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-lg font-semibold shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 cursor-pointer">
                 Explanation
               </span>
