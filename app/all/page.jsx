@@ -22,8 +22,6 @@ const Page = () => {
       setFilteredQuestions(asset);
     }
   }
-
-
   const handleFilterHard = (e) => {
     if (e.target.checked) {
       setFilteredQuestions(asset.filter((item)=> item.hard === true))

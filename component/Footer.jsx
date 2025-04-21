@@ -1,5 +1,4 @@
 "use client";
-import { Facebook, Twitter, Github } from "lucide-react";
 import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram, FaGlobe } from "react-icons/fa";
 
 const Footer = () => {
@@ -11,24 +10,21 @@ const Footer = () => {
         
         {/* Links */}
         <div className="flex space-x-6 text-lg font-semibold">
-          <a href="#" className="text-orange-300 hover:text-orange-500 transition">
+          <a href="/love-babbar-sheet" className="text-orange-300 hover:text-orange-500 transition">
             Love-Babbar Sheet
           </a>
-          <a href="#" className="text-orange-300 hover:text-orange-500 transition">
+          <a href="/striver" className="text-orange-300 hover:text-orange-500 transition">
             Striver-Sheet
           </a>
         </div>
 
         {/* Social Icons (Optional) */}
         <div className="flex space-x-4 mt-4">
-          <a href="#" className="text-orange-400 hover:text-orange-500 transition">
-            <Facebook size={24} />
-          </a>
-          <a href="#" className="text-orange-400 hover:text-orange-500 transition">
-            <Github size={24} />
+          <a href="https://github.com/CODEMASTER-ABDULLAH-92" className="text-orange-400 hover:text-orange-500 transition">
+            <FaGithub size={24} />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/muhammad-abdullah-671bb7322/"
             target="_blank"
             rel="noopener noreferrer"
 className="text-orange-400 hover:text-orange-500 transition"
