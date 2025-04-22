@@ -1,9 +1,4 @@
-// import dsa from "@/assets/data/dsa"
-// // import js from ""
-// export const newData = {
-// dsa,
-// js
-// }
+
 const asset = [
     {
         _id: "linearSearch",
