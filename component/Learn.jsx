@@ -1,9 +1,7 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
 import dsa from "@/assets/dsa.png";
 import jsn from "@/assets/jsn.png";
-import Link from 'next/link';
 import CardDsa from './CardDsa';
 
 const Learn = () => {

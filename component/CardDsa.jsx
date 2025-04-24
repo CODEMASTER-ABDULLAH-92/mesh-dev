@@ -8,7 +8,7 @@ const CardDsa = ({image,heading,description,lessons,btnText,url}) => {
        <div className=" max-w-[400px] bg-gradient-to-br from-purple-500 to-blue-500 p-0.5 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="bg-gray-800 p-4 rounded-xl h-full min-h-[500px] sm:min-h-[550px] lg:h-[600px]">
               <div className="relative rounded-2xl p-4 h-[370px]">
-                <Link href="/all">
+                <Link href={url}>
                   <Image 
                     src={image} 
                     alt="Data Structures & Algorithms"
