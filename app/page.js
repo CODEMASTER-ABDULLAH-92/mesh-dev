@@ -13,7 +13,7 @@ export default function Home() {
      <Learn/>
      <Testimonials/>
      <Connect/>
-<AboutFeedback/>
+{/* <AboutFeedback/> */}
    </>
   );
 }
