@@ -94,9 +94,9 @@ const Code = ({ text = "", heading = "", language = "cpp" }) => {
           </div>
 
           {/* Code Display */}
-          <div className="p-4 overflow-auto max-h-[400px]">
+          <div className="p-4 overflow-auto -tracking-tighter max-h-[800px]">
             {text ? (
-              <pre className="font-mono text-sm sm:text-[15px] leading-relaxed whitespace-pre-wrap text-gray-100">
+              <pre className="font-mono text-lg sm:text-[17px] leading-relaxed whitespace-pre-wrap text-gray-100">
                 {text}
               </pre>
             ) : (

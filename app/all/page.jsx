@@ -1,6 +1,7 @@
 "use client";
 import asset from "@/assets/data";
 import { HelpCircle } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -161,6 +162,10 @@ const Page = () => {
               <Link href={item._id}  className={` text-lg font-medium`}>
                 {item.heading}
               </Link>
+              <div className="flex justify-end items-end">
+              {item.image && <Image alt={"GFG or Leetcode Logo"} className=" bg-gray-900/85 p-1.5 rounded-xs h-8 w-8" src={item.image} width={24} height={24}/>
+}
+              </div>
             </div>
           ))}
         </div>

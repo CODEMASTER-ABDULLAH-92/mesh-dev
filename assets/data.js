@@ -1,4 +1,4 @@
-
+import leet from "@/assets/leet.png"
 const asset = [
     {
         _id: "linearSearch",
@@ -351,6 +351,83 @@ const asset = [
         mid: false,
         hard: true,
         Dsa: "array"
+    },
+    //New 
+    {
+        _id: "Min-Max-In-array",
+        heading: "Min Max in an array",
+        love: true,
+        striver: false,
+        easy: true,
+        mid: false,
+        hard: false,
+        Dsa: "array",
+        image:"https://media.geeksforgeeks.org/gfg-gg-logo.svg"
+    },
+    {
+        _id: "Sorted-array-search",
+        heading: "Sorted Array Search",
+        love: false,
+        striver: true,
+        easy: false,
+        mid: false,
+        hard: true,
+        Dsa: "array",
+        image:"https://media.geeksforgeeks.org/gfg-gg-logo.svg"
+    },
+    {
+        _id: "Search-in-an-array",
+        heading: "Search in an array",
+        love: false,
+        striver: true,
+        easy: false,
+        mid: false,
+        hard: true,
+        Dsa: "array",
+        image:"https://media.geeksforgeeks.org/gfg-gg-logo.svg"
+    },
+    {
+        _id: "Doubling-the-value",
+        heading: "Doubling the value",
+        love: false,
+        striver: true,
+        easy: false,
+        mid: false,
+        hard: true,
+        Dsa: "array",
+        image:"https://media.geeksforgeeks.org/gfg-gg-logo.svg"
+    },
+    {
+        _id: "Power-of-two",
+        heading: "Power of two",
+        love: false,
+        striver: true,
+        easy: false,
+        mid: false,
+        hard: true,
+        Dsa: "math",
+        image:leet
+    },{
+        _id: "Palindrome-Number",
+        heading: "Palindrome Number",
+        love: false,
+        striver: true,
+        easy: false,
+        mid: false,
+        hard: true,
+        Dsa: "math",
+        image:leet
+    },
+    {
+        _id: "Reverse-of-integers",
+        heading: "Reverse of integers",
+        love: false,
+        striver: true,
+        easy: false,
+        mid: false,
+        hard: true,
+        Dsa: "math",
+        image:leet
     }
 ];
 

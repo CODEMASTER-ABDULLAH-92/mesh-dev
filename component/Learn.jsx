@@ -2,6 +2,7 @@
 import React from 'react';
 import dsa from "@/assets/dsa.png";
 import jsn from "@/assets/jsn.png";
+import stl from "@/assets/stl.png";
 import CardDsa from './CardDsa';
 
 const Learn = () => {
@@ -17,7 +18,7 @@ const Learn = () => {
           </p>
         </div>
         
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 sm:gap-8 lg:gap-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 justify-items-center gap-6 sm:gap-8 lg:gap-10">
           {/* DSA Course Card */}
 
           <CardDsa heading={"Data Structures & Algorithms "} lessons={"34 Lessons"} url={"/all"} description={"Master problem-solving techniques with our comprehensive DSA course covering all essential concepts."} image={dsa} btnText={"Beginer"}/>
@@ -25,6 +26,7 @@ const Learn = () => {
           {/* JavaScript Course Card */}
 
           <CardDsa heading={"JavaScript Mastery"} lessons={"34 Lessons"} url={"/masterJavaScript"} description={"Deep dive into modern JavaScript concepts, frameworks, and best practices for web development."} image={jsn} btnText={"Beginer"}/>
+          <CardDsa heading={"STL Mastery"} lessons={"13 Lessons"} url={"/Learn-STL"} description={"Deep dive into modern JavaScript concepts, frameworks, and best practices for web development."} image={stl} btnText={"Beginer"}/>
 
 
         </div>

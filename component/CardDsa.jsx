@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import dsa from "@/assets/dsa.png"
 const CardDsa = ({image,heading,description,lessons,btnText,url}) => {
   return (
     <div>

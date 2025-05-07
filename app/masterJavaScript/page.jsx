@@ -23,7 +23,7 @@ const JavaScriptConcepts = () => {
       title: "JavaScript Arrays",
       description: "Master JavaScript arrays and methods like map, filter, reduce, push, pop, and more to manipulate collections of data.",
       image: array,
-      href: "/arrayData",
+      href: "/array-methods",
       lessons: "24 Lessons",
       level: "Intermediate",
       gradient: "from-yellow-400 to-orange-500"
