@@ -26,7 +26,7 @@ const Learn = () => {
           {/* JavaScript Course Card */}
 
           <CardDsa heading={"JavaScript Mastery"} lessons={"34 Lessons"} url={"/masterJavaScript"} description={"Deep dive into modern JavaScript concepts, frameworks, and best practices for web development."} image={jsn} btnText={"Beginer"}/>
-          <CardDsa heading={"STL Mastery"} lessons={"13 Lessons"} url={"/Learn-STL"} description={"Deep dive into modern JavaScript concepts, frameworks, and best practices for web development."} image={stl} btnText={"Beginer"}/>
+          <CardDsa heading={"STL Mastery"} lessons={"13 Lessons"} url={"/Learn-STL"} description={"Boost your coding skills with our STL courses—master vectors, maps, sets, and algorithms for efficient and competitive programming."} image={stl} btnText={"Beginer"}/>
 
 
         </div>

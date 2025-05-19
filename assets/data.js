@@ -1,7 +1,8 @@
+
 import leet from "@/assets/leet.png"
 const asset = [
     {
-        _id: "linearSearch",
+        _id: "Algorithm/linearSearch",
         heading: "Linear Search",
         love: false,
         striver: true,
@@ -21,7 +22,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "binarysearch",
+        _id: "Algorithm/binarysearch",
         heading: "Binary Search",
         love: false,
         striver: true,
@@ -32,7 +33,7 @@ const asset = [
     },
     // favicon.ico
     {
-        _id: "selectionsort",
+        _id: "Algorithm/selectionSort",
         heading: "Selection Sort",
         love: false,
         striver: true,
@@ -42,7 +43,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "bubblesort",
+        _id: "Algorithm/bubblesort",
         heading: "Bubble Sort",
         love: false,
         striver: true,
@@ -52,7 +53,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "insertionsort",
+        _id: "Algorithm/insertionsort",
         heading: "Insertion Sort",
         love: false,
         striver: true,
@@ -427,6 +428,17 @@ const asset = [
         mid: false,
         hard: true,
         Dsa: "math",
+        image:leet
+    },
+    {
+        _id: "Algorithm/Dutch-National-Flag-algorithm",
+        heading: "Dutch National Flag algorithm",
+        love: false,
+        striver: true,
+        easy: false,
+        mid: true,
+        hard: false,
+        Dsa: "array",
         image:leet
     }
 ];
