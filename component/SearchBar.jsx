@@ -67,7 +67,7 @@ const SearchSection = () => {
 
       {/* Dummy Text */}
       <div className="mt-8 max-w-3xl text-lg text-gray-300 leading-relaxed text-center">
-        Welcome to <span className="text-orange-400 font-semibold">mash-dev</span>, 
+        Welcome to <span className="text-orange-400 font-semibold">code365</span>, 
         your ultimate platform for learning and coding resources. Discover guides, 
         problem-solving strategies, and in-depth articles tailored to help you excel 
         in Data Structures, Algorithms, and Web Development.

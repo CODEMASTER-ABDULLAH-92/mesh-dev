@@ -44,7 +44,7 @@ className="text-orange-400 hover:text-orange-500 transition"
 
         {/* Copyright */}
         <p className="mt-4 text-sm text-gray-500">
-          © {new Date().getFullYear()} mash-dev. All Rights Reserved.
+          © {new Date().getFullYear()} code365. All Rights Reserved.
         </p>
       </div>
     </footer>

@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-3xl font-bold text-orange-400">
-  mash-dev.
+  code365.
 </Link>
 
         {/* Desktop Links */}
