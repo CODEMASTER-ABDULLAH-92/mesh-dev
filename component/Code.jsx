@@ -65,10 +65,10 @@ const Code = ({ text = "", heading = "", language = "cpp" }) => {
           </div>
 
           {/* Code Display */}
-          <div className="p-4 overflow-auto -tracking-tighter max-h-[800px]">
+          <div className="p-4 overflow-auto -tracking-tighter max-h-[100%]">
             {text ? (
               <pre className="font-mono text-lg sm:text-[17px] leading-relaxed whitespace-pre-wrap text-gray-100">
-                <code className={`language-${language}`}>{text}</code>
+                <code className={`language-${language} -tracking-tighter text-xl md:text-2xl text-amber-100`}>{text}</code>
               </pre>
             ) : (
               <div className="text-center py-8 text-gray-400 italic">

@@ -11,7 +11,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "sorting-of-01",
+        _id: "/array-dsa/sorting-of-01",
         heading: "Sorting 0 1",
         love: true,
         striver: false,
@@ -62,7 +62,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "find-second-largest",
+        _id: "/array-dsa/find-second-largest",
         heading: "Find the Second Largest Element",
         love: false,
         striver: true,
@@ -72,7 +72,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "missing-number-in-an-array",
+        _id: "/array-dsa/missing-number-in-an-array",
         heading: "Missing Number in an array",
         love: false,
         striver: true,
@@ -82,7 +82,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "fibonacci-series-using-array",
+        _id: "/array-dsa/fibonacci-series-using-array",
         heading: "Fibonacci Series Using Array",
         love: false,
         striver: true,
@@ -92,7 +92,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "seprate-even-odd",
+        _id: "/array-dsa/seprate-even-odd",
         heading: "Separate Even & Odd",
         love: false,
         striver: true,
@@ -102,7 +102,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "rotate-an-array-by-1",
+        _id: "/array-dsa/rotate-an-array-by-1",
         heading: "Rotate an Array by 1",
         love: false,
         striver: true,
@@ -122,7 +122,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "reverseAnArray",
+        _id: "/array-dsa/reverseAnArray",
         heading: "Reverse of Array",
         love: false,
         striver: true,
@@ -132,7 +132,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "reverse-alternative-array",
+        _id: "/array-dsa/reverse-alternative-array",
         heading: "Reverse Alternate the Array",
         love: false,
         striver: true,

@@ -4,7 +4,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <Code text={``} heading={`Symmetric Alphabet Pyramid`}/>
+      <Code text={`Very Soon adding the code `} heading={`Symmetric Alphabet Pyramid`}/>
     </div>
   )
 }
