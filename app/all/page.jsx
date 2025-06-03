@@ -23,9 +23,38 @@ const Page = () => {
       setFilteredQuestions(asset);
     }
   }
+
   const handleFilterHard = (e) => {
     if (e.target.checked) {
       setFilteredQuestions(asset.filter((item)=> item.hard === true))
+    } else {
+      setFilteredQuestions(asset);
+    }
+  }
+  const handleFilterlove = (e) => {
+    if (e.target.checked) {
+      setFilteredQuestions(asset.filter((item)=> item.love === true))
+    } else {
+      setFilteredQuestions(asset);
+    }
+  }
+  const handleFilterStriverPattern = (e) => {
+    if (e.target.checked) {
+      setFilteredQuestions(asset.filter((item)=> item.striver === true))
+    } else {
+      setFilteredQuestions(asset);
+    }
+  }
+  const handleFilterArray = (e) => {
+    if (e.target.checked) {
+      setFilteredQuestions(asset.filter((item)=> item.Dsa === "array"))
+    } else {
+      setFilteredQuestions(asset);
+    }
+  }
+  const handleFilterString = (e) => {
+    if (e.target.checked) {
+      setFilteredQuestions(asset.filter((item)=> item.Dsa === "string"))
     } else {
       setFilteredQuestions(asset);
     }
@@ -54,7 +83,7 @@ const Page = () => {
                 type="checkbox"
                 id="easy"
                 onChange={handleFilterChange}
-                className="w-[18px] h-[18px] accent-blue-500"
+                className="w-[18px] h-[18px] accent-green-500"
               />
               Easy
             </label>
@@ -65,7 +94,7 @@ const Page = () => {
                 type="checkbox"
                 id="medium"
                 onChange={handleFilterMidium}
-                className="w-[18px] h-[18px] accent-blue-500"
+                className="w-[18px] h-[18px] accent-yellow-500"
               />
               Medium
             </label>
@@ -88,28 +117,28 @@ const Page = () => {
               <input
                 type="checkbox"
                 id="love-babbar"
-                
+                onChange={handleFilterlove}
                 className="w-[18px] h-[18px] accent-green-500"
               />
               Love Babbar
             </label>
 
-            <label htmlFor="striver" className="flex items-center gap-2 cursor-pointer">
+            {/* <label htmlFor="striver" className="flex items-center gap-2 cursor-pointer">
               <input
                 type="checkbox"
                 id="striver"
                 
-                className="w-[18px] h-[18px] accent-green-500"
+                className="w-[18px] h-[18px] accent-red-500"
               />
               Striver
-            </label>
+            </label> */}
 
             <label htmlFor="striver-pattern" className="flex items-center gap-2 cursor-pointer">
               <input
                 type="checkbox"
                 id="striver-pattern"
-                
-                className="w-[18px] h-[18px] accent-green-500"
+                onChange={handleFilterStriverPattern}
+                className="w-[18px] h-[18px] accent-blue-500"
               />
               Striver Pattern
             </label>
@@ -122,8 +151,8 @@ const Page = () => {
               <input
                 type="checkbox"
                 id="array"
-                
-                className="w-[18px] h-[18px] accent-green-500"
+                onChange={handleFilterArray}
+                className="w-[18px] h-[18px] accent-yellow-500"
               />
               Array
             </label>
@@ -132,21 +161,21 @@ const Page = () => {
               <input
                 type="checkbox"
                 id="string"
-                
+                onChange={handleFilterString}
                 className="w-[18px] h-[18px] accent-green-500"
               />
               String
             </label>
-
+{/* 
             <label htmlFor="hashmap" className="flex items-center gap-2 cursor-pointer">
               <input
                 type="checkbox"
                 id="hashmap"
                 
-                className="w-[18px] h-[18px] accent-green-500"
+                className="w-[18px] h-[18px] accent-red-500"
               />
               HashMap
-            </label>
+            </label> */}
           </div>
         </div>
 
