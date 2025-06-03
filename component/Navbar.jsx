@@ -17,9 +17,9 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8 text-lg font-semibold">
-          <Link href="/love-babbar-sheet" className="text-orange-300 hover:text-orange-500 transition">
+          {/* <Link href="/love-babbar-sheet" className="text-orange-300 hover:text-orange-500 transition">
             Love-Babbar Sheet
-          </Link>
+          </Link> */}
           {/* <a href="#" className="text-orange-300 hover:text-orange-500 transition">
             Striver-Sheet
           </a> */}
@@ -39,10 +39,10 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden h-screen flex flex-col items-center space-y-4 py-4 bg-gray-800">
-          <Link href="/love-babbar-sheet" onClick={()=>setIsOpen(false)} className="text-orange-300 hover:text-orange-500 transition">
+        <div className="md:hidden h-screen flex flex-col items-center space-y-4 py-4">
+          {/* <Link href="/love-babbar-sheet" onClick={()=>setIsOpen(false)} className="text-orange-300 hover:text-orange-500 transition">
             Love-Babbar Sheet
-          </Link>
+          </Link> */}
           <a href="/striver" onClick={()=>setIsOpen(false)} className="text-orange-300 hover:text-orange-500 transition">
             Striver-Sheet
           </a>

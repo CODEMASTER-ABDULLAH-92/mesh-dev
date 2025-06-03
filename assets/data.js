@@ -143,7 +143,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "squarePattern",
+        _id: "/Patterns/squarePattern",
         heading: "Square Pattern",
         love: false,
         striver: true,
@@ -153,7 +153,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "right-Angled-Triangle-Pattern",
+        _id: "/Patterns/right-Angled-Triangle-Pattern",
         heading: "Right-Angled Triangle Pattern",
         love: false,
         striver: true,
@@ -163,7 +163,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "number-Pyramid-Pattern",
+        _id: "/Patterns/number-Pyramid-Pattern",
         heading: "Number Pyramid Pattern",
         love: false,
         striver: true,
@@ -173,7 +173,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "repeated-Number-Triangle-Pattern",
+        _id: "/Patterns/repeated-Number-Triangle-Pattern",
         heading: "Repeated Number Triangle Pattern",
         love: false,
         striver: true,
@@ -183,7 +183,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "InvertedRight-AngledTrianglePattern",
+        _id: "/Patterns/InvertedRight-AngledTrianglePattern",
         heading: "Inverted Right-Angled Triangle Pattern",
         love: false,
         striver: true,
@@ -193,7 +193,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "pyramidPattern",
+        _id: "/Patterns/pyramidPattern",
         heading: "Pyramid Pattern",
         love: false,
         striver: true,
@@ -203,7 +203,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "Inverted-Pyramid-Pattern2",
+        _id: "/Patterns/Inverted-Pyramid-Pattern2",
         heading: "Inverted Pyramid Pattern 2",
         love: false,
         striver: true,
@@ -213,7 +213,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "diamondPattern",
+        _id: "/Patterns/diamondPattern",
         heading: "Diamond Pattern",
         love: false,
         striver: true,
@@ -223,7 +223,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "mirroredNumberPyramidPattern",
+        _id: "/Patterns/mirroredNumberPyramidPattern",
         heading: "Mirrored Number Pyramid Pattern",
         love: false,
         striver: true,
@@ -233,7 +233,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "BinaryNumberTrianglePattern",
+        _id: "/Patterns/BinaryNumberTrianglePattern",
         heading: "Binary Number Triangle Pattern",
         love: false,
         striver: true,
@@ -243,7 +243,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "Hourglass-Pattern",
+        _id: "/Patterns/Hourglass-Pattern",
         heading: "Hourglass Pattern",
         love: false,
         striver: true,
@@ -253,7 +253,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "floydTriangle",
+        _id: "/Patterns/floydTriangle",
         heading: "Floyd's Triangle",
         love: false,
         striver: true,
@@ -263,7 +263,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "AlphabetPyramidPattern",
+        _id: "/Patterns/AlphabetPyramidPattern",
         heading: "Alphabet Pyramid Pattern",
         love: false,
         striver: true,
@@ -273,7 +273,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "invertedAlphabetPyramidPattern",
+        _id: "/Patterns/invertedAlphabetPyramidPattern",
         heading: "Inverted Alphabet Pyramid Pattern",
         love: false,
         striver: true,
@@ -283,7 +283,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "reverseAlphabetTrianglePattern",
+        _id: "/Patterns/reverseAlphabetTrianglePattern",
         heading: "Reverse Alphabet Triangle Pattern",
         love: false,
         striver: true,
@@ -294,7 +294,7 @@ const asset = [
     },
     {
         //Here im stopped
-        _id: "symmetricAlphabetPyramid",
+        _id: "/Patterns/symmetricAlphabetPyramid",
         heading: "Symmetric Alphabet Pyramid",
         love: false,
         striver: true,
@@ -304,7 +304,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "AlphabetStaircasePattern",
+        _id: "/Patterns/AlphabetStaircasePattern",
         heading: "Alphabet Staircase Pattern",
         love: false,
         striver: true,
@@ -314,7 +314,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "ButterflyPattern",
+        _id: "/Patterns/ButterflyPattern",
         heading: "Butterfly Pattern",
         love: false,
         striver: true,
@@ -324,7 +324,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "sandglassPattern",
+        _id: "/Patterns/sandglassPattern",
         heading: "Sandglass Pattern",
         love: false,
         striver: true,
@@ -334,7 +334,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "HollowSquarePattern",
+        _id: "/Patterns/HollowSquarePattern",
         heading: "Hollow Square Pattern",
         love: false,
         striver: true,
@@ -344,7 +344,7 @@ const asset = [
         Dsa: "array"
     },
     {
-        _id: "NumberBoxPattern",
+        _id: "/Patterns/NumberBoxPattern",
         heading: "Number Box Pattern",
         love: false,
         striver: true,
@@ -431,7 +431,7 @@ const asset = [
         image:leet
     },
     {
-        _id: "Algorithm/Dutch-National-Flag-algorithm",
+        _id: "Algorithm/dutch-National-Flag-algorithm",
         heading: "Dutch National Flag algorithm",
         love: false,
         striver: true,

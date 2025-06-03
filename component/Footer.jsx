@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram, FaGlobe } from "react-icons/fa";
 
 const Footer = () => {
@@ -6,13 +7,13 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300 py-6 text-center">
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center">
         {/* Brand Name */}
-        <h2 className="text-2xl font-bold text-orange-400 mb-2">mash-dev</h2>
+        <Link href="/" className="text-2xl font-bold text-orange-400 mb-2">code365.</Link>
         
         {/* Links */}
         <div className="flex space-x-6 text-lg font-semibold">
-          <a href="/love-babbar-sheet" className="text-orange-300 hover:text-orange-500 transition">
+          {/* <a href="/love-babbar-sheet" className="text-orange-300 hover:text-orange-500 transition">
             Love-Babbar Sheet
-          </a>
+          </a> */}
           <a href="/striver" className="text-orange-300 hover:text-orange-500 transition">
             Striver-Sheet
           </a>

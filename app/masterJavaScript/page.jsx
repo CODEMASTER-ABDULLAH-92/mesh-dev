@@ -28,24 +28,24 @@ const JavaScriptConcepts = () => {
       level: "Intermediate",
       gradient: "from-yellow-400 to-orange-500"
     },
-    {
-      title: "JavaScript Strings",
-      description: "Explore JavaScript string methods like slice, replace, toUpperCase, toLowerCase, split, and more for text manipulation.",
-      image: strings,
-      href: "/learn/strings",
-      lessons: "20 Lessons",
-      level: "Intermediate",
-      gradient: "from-green-400 to-blue-500"
-    },
-    {
-      title: "Other Useful Methods",
-      description: "Dive into other essential JavaScript methods for objects, numbers, and utility functions for efficient coding.",
-      image: othermethods,
-      href: "/learn/others",
-      lessons: "15 Lessons",
-      level: "Advanced",
-      gradient: "from-purple-600 to-indigo-500"
-    }
+    // {
+    //   title: "JavaScript Strings",
+    //   description: "Explore JavaScript string methods like slice, replace, toUpperCase, toLowerCase, split, and more for text manipulation.",
+    //   image: strings,
+    //   href: "/learn/strings",
+    //   lessons: "20 Lessons",
+    //   level: "Intermediate",
+    //   gradient: "from-green-400 to-blue-500"
+    // },
+    // {
+    //   title: "Other Useful Methods",
+    //   description: "Dive into other essential JavaScript methods for objects, numbers, and utility functions for efficient coding.",
+    //   image: othermethods,
+    //   href: "/learn/others",
+    //   lessons: "15 Lessons",
+    //   level: "Advanced",
+    //   gradient: "from-purple-600 to-indigo-500"
+    // }
   ];
 
   return (
@@ -75,11 +75,11 @@ const JavaScriptConcepts = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12 sm:mt-16 lg:mt-20">
+        {/* <div className="text-center mt-12 sm:mt-16 lg:mt-20">
           <button className="border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-gray-900 font-medium px-6 py-2 sm:py-3 rounded-lg transition-all duration-300 text-sm sm:text-base transform hover:scale-105">
             View All Concepts
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

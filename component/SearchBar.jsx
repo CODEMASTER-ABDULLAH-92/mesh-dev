@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Search } from "lucide-react";
 import Link from "next/link";
 import asset from "@/assets/data";
@@ -11,12 +11,21 @@ const SearchSection = () => {
   const handleSearch = (e) => {
     const searchTerm = e.target.value.toLowerCase();
     setQuery(searchTerm);
-
     const results = asset.filter((item) =>
       item.heading.toLowerCase().includes(searchTerm)
     );
     setFilteredResults(results);
   };
+
+  const checkQuery = () =>{
+    if (query === "") {
+      setFilteredResults([]);
+    }
+  }
+useEffect(()=>{
+  checkQuery();
+},[query])
+
 
   return (
     <div className="bg-gray-900 text-white flex flex-col items-center px-4 py-10">
@@ -61,7 +70,7 @@ const SearchSection = () => {
             ))}
           </ul>
         ) : (
-<p></p>
+<p className="text-lg text-center text-amber-500">No, Data Found !Oops..</p>
         )}
       </div>
 
