@@ -28,9 +28,11 @@ const prata = Prata({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
       <body
         className={`${sourGummy.variable} ${outfit.variable} ${prata.variable} antialiased`}
       >
+        <title>code365 | DSA Smashers</title>
         <Navbar/>
         {children}
         <Footer/>
