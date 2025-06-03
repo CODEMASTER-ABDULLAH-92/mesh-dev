@@ -4,7 +4,6 @@ import Head from "next/head";
 import ReactMarkdown from "react-markdown";
 import Link from "next/link";
 
-
 const Striver = () => {
 
   const patterns = [
@@ -15,7 +14,7 @@ const Striver = () => {
 * * * * *
 * * * * *
 * * * * *`,
-link:'/squarePattern',
+link:'/Patterns/squarePattern',
     },
     {
       title: 'Pattern 2',
@@ -24,7 +23,7 @@ link:'/squarePattern',
 * * * 
 * * * * 
 * * * * *`,
-link:'/right-Angled-Triangle-Pattern',
+link:'/Patterns/right-Angled-Triangle-Pattern',
     },
     {
       title: 'Pattern 3',
@@ -33,7 +32,7 @@ link:'/right-Angled-Triangle-Pattern',
 1 2 3
 1 2 3 4
 1 2 3 4 5`,
-link:'/number-Pyramid-Pattern'
+link:'/Patterns/number-Pyramid-Pattern'
     },
     {
       title: 'Pattern 4',
@@ -42,10 +41,10 @@ link:'/number-Pyramid-Pattern'
 3 3 3
 4 4 4 4
 5 5 5 5 5`,
-link:'/repeated-Number-Triangle-Pattern',
+link:'/Patterns/repeated-Number-Triangle-Pattern',
     },
     {
-      link:'/repeated-Number-Triangle-Pattern',
+      link:'/Patterns/repeated-Number-Triangle-Pattern',
       title: 'Pattern 5',
       code: `* * * * * 
 * * * * 
@@ -54,7 +53,7 @@ link:'/repeated-Number-Triangle-Pattern',
 *`,
     },
     {
-      link:"/InvertedRight-AngledTrianglePattern",
+      link:"/Patterns/InvertedRight-AngledTrianglePattern",
       title: 'Pattern 6',
       code: `1 2 3 4 5
 1 2 3 4
@@ -63,7 +62,7 @@ link:'/repeated-Number-Triangle-Pattern',
 1`,
     },
     {
-      link:"/pyramidPattern",
+      link:"/Patterns/pyramidPattern",
       title: 'Pattern 7',
       code: `        
       *
@@ -73,7 +72,7 @@ link:'/repeated-Number-Triangle-Pattern',
 * * * * * * * * *`,
     },
     {
-      link:"/Inverted-Pyramid-Pattern2",
+      link:"/Patterns/Inverted-Pyramid-Pattern2",
       title: 'Pattern 8',
       code: `  * * * * * * * * *
     * * * * * * *
@@ -82,7 +81,7 @@ link:'/repeated-Number-Triangle-Pattern',
           *`,
     },
     {
-      link:"/diamondPattern",
+      link:"/Patterns/diamondPattern",
       title: 'Pattern 9',
       code: `         * 
        * * * 
@@ -96,7 +95,7 @@ link:'/repeated-Number-Triangle-Pattern',
     },
 
     {
-      link:"/mirroredNumberPyramidPattern",
+      link:"/Patterns/mirroredNumberPyramidPattern",
       title: 'Pattern 10',
       code: `* 
 * * 
@@ -109,7 +108,7 @@ link:'/repeated-Number-Triangle-Pattern',
 *`,
     },
     {
-      link:"/BinaryNumberTrianglePattern",
+      link:"/Patterns/BinaryNumberTrianglePattern",
       title: 'Pattern 11',
       code: `1 
 0 1 
@@ -118,7 +117,7 @@ link:'/repeated-Number-Triangle-Pattern',
 1 0 1 0 1`,
     },
     {
-      link:"/Hourglass-Pattern",
+      link:"/Patterns/Hourglass-Pattern",
       title: 'Pattern 12',
       code: `1      1
 12    12
@@ -127,7 +126,7 @@ link:'/repeated-Number-Triangle-Pattern',
     },
 
     {
-      link:"/floydTriangle",
+      link:"/Patterns/floydTriangle",
       title: 'Pattern 13',
       code: `1 
 2 3 
@@ -136,7 +135,7 @@ link:'/repeated-Number-Triangle-Pattern',
 11 12 13 14 15`,
     },
     {
-      link:"/AlphabetPyramidPattern",
+      link:"/Patterns/AlphabetPyramidPattern",
       title: 'Pattern 14',
       code: `A 
 A B 
@@ -145,7 +144,7 @@ A B C D
 A B C D E`,
     },
     {
-      link:"/invertedAlphabetPyramidPattern",
+      link:"/Patterns/invertedAlphabetPyramidPattern",
       title: 'Pattern 15',
       code: `
 A B C D E 
@@ -155,7 +154,7 @@ A B
 A `,
     },
     {
-      link:"/reverseAlphabetTrianglePattern",
+      link:"/Patterns/reverseAlphabetTrianglePattern",
       title: 'Pattern 16',
       code: `E 
 E D 
@@ -164,7 +163,7 @@ E D C B
 E D C B A`,
     },
     {
-      link:"/symmetricAlphabetPyramid",
+      link:"/Patterns/symmetricAlphabetPyramid",
       title: 'Pattern 17',
       code: `
           A
@@ -173,7 +172,7 @@ E D C B A`,
     A B C D C B A`,
     },
     {
-      link:"/AlphabetStaircasePattern",
+      link:"/Patterns/AlphabetStaircasePattern",
       title: 'Pattern 18',
       code: `E
 D E
@@ -182,21 +181,22 @@ B C D E
 A B C D E`,
     },
     {
-      link:"/sandglassPattern",
+      link:"/Patterns/sandglassPattern",
       title: 'Pattern 19',
-      code: `* * * * * * * * * * 
-* * * *     * * * * 
-* * *         * * * 
-* *             * * 
-*                 * 
-*                 * 
-* *             * * 
-* * *         * * * 
-* * * *     * * * * 
+      code: `
+* * * * * * * * * * 
+* * * *      * * * * 
+* * *           * * * 
+* *                * * 
+*                     * 
+*                     * 
+* *                * * 
+* * *           * * * 
+* * * *       * * * * 
 * * * * * * * * * * `,
     },
     {
-      link:"/ButterflyPattern",
+      link:"/Patterns/ButterflyPattern",
       title: 'Pattern 20',
       code: `
 *                 * 
@@ -210,21 +210,21 @@ A B C D E`,
 *                 * `,
     },
     {
-      link:"/HollowSquarePattern",
+      link:"/Patterns/HollowSquarePattern",
       title: 'Pattern 21',
       code: `* * * * * * * * * * * * * * * 
-*                           * 
-*                           * 
-*                           * 
-*                           * 
-*                           * 
-*                           * 
-*                           * 
-*                           *  
+*                                      * 
+*                                      * 
+*                                      * 
+*                                      * 
+*                                      * 
+*                                      * 
+*                                      * 
+*                                      *  
 * * * * * * * * * * * * * * *`,
     },
     {
-      link:"/NumberBoxPattern",
+      link:"/Patterns/NumberBoxPattern",
       title: 'Pattern 22',
       code: `4 4 4 4 4 4 4 
 4 3 3 3 3 3 4 
@@ -254,7 +254,7 @@ A B C D E`,
             <h2 className="text-2xl hover:text-purple-400 cursor-pointer sm:text-3xl font-semibold mb-4 text-center text-gray-100">
               {pattern.title}
             </h2>
-            <div className="bg-gray-900 p-6 rounded-lg flex  justify-center items-center border border-gray-700 text-lg font-mono overflow-scroll -tracking-tighter">
+            <div className="bg-gray-900 p-[20px] rounded-lg flex  justify-center items-center border border-gray-700 text-lg font-mono overflow-scroll">
               <ReactMarkdown>{`\`\`\`\n${pattern.code}\n\`\`\``}</ReactMarkdown>
             </div>
           </div>

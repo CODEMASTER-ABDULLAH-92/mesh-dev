@@ -31,11 +31,11 @@ const Learn = () => {
 
         </div>
 
-        <div className="text-center mt-12 sm:mt-16">
+        {/* <div className="text-center mt-12 sm:mt-16">
           <button className="border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-gray-900 font-medium px-5 py-2 sm:px-6 sm:py-3 rounded-lg transition-all duration-300 text-sm sm:text-base">
             View All Courses
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
