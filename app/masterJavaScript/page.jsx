@@ -45,6 +45,16 @@ const JavaScriptConcepts = () => {
     //   lessons: "15 Lessons",
     //   level: "Advanced",
     //   gradient: "from-purple-600 to-indigo-500"
+    // },
+
+    // {
+    //   title: "Other Useful Methods",
+    //   description: "Dive into other essential JavaScript methods for objects, numbers, and utility functions for efficient coding.",
+    //   image: othermethods,
+    //   href: "/learn/others",
+    //   lessons: "15 Lessons",
+    //   level: "Advanced",
+    //   gradient: "from-purple-600 to-indigo-500"
     // }
   ];
 

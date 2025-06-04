@@ -42,7 +42,7 @@ const CardDsa = ({image,heading,description,lessons,btnText,url}) => {
                     {lessons}
                     {/* 120 Lessons */}
                   </div>
-                  <Link href={url} className="bg-gradient-to-r hover:opacity-90 transition-opacity from-orange-500 to-yellow-500 text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium text-center">
+                  <Link href={url} className="bg-gradient-to-r hover:opacity-90 transition-opacity from-orange-500 to-yellow-500 text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm sm:text-sm font-semibold text-center">
                     Start Learning
                   </Link>
                 </div>
