@@ -430,7 +430,7 @@ const asset = [
         image:leet
     },
     {
-        _id: "/Algorithm/dutch-National-Flag-algorithm",
+        _id: "/Algorithm/dutch-national-flag-algo",
         heading: "Dutch National Flag algorithm",
         love: false,
         striver: false,
